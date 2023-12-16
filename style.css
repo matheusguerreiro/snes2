@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "snes";
+  src: url("../fonts/super-nintendo/SNES.ttf") format("ttf");
+}
+@font-face {
+  font-family: "nintendo";
+  src: url("../fonts/pretendo/Pretendo.ttf") format("ttf");
+}
+@font-face {
+  font-family: "logos";
+  src: url("../fonts/game-logos/GameLogos.ttf") format("ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+nav {
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: center;
+  padding: 6px 0 4px;
+}
+nav a, nav .aActive {
+  width: 91.59px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  gap: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+nav a img, nav .aActive img {
+  height: 72px;
+}
+nav .aActive {
+  color: #fc0c18;
+}
+
+main {
+  flex: 1;
+  background-color: yellow;
+}
+
+footer {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

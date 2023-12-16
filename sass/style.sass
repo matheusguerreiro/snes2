@@ -1,0 +1,86 @@
+@font-face
+  font-family: "snes"
+  src: url("../fonts/super-nintendo/SNES.ttf") format("ttf")
+
+@font-face
+  font-family: "nintendo"
+  src: url("../fonts/pretendo/Pretendo.ttf") format("ttf")
+
+@font-face
+  font-family: "logos"
+  src: url("../fonts/game-logos/GameLogos.ttf") format("ttf")
+
+// SNES
+$snesLogo:                  #fc0c18
+$snesConsole:               #cac8cd
+$snesControllerLogo:        #8f8d94
+$snesControllerYX:          #b3b1e3
+$snesControllerBA:          #5b3893
+$snesControllerStartSelect: #373737
+
+// SFC
+$sfcPower:                  #5c5e60
+
+// four mark colors
+$fmcGreen:                  #6eb92b
+$fmcBlue:                   #00a7eb
+$fmcRed:                    #e60012
+$fmcYellow:                 #ffe100
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+html, body
+  height: 100%
+  width: 100%
+  display: flex
+  flex-direction: column
+
+header
+  background-color: #000
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: flex-end
+
+nav
+  background-color: #000
+  display: flex
+  flex-direction: row
+  gap: 32px
+  justify-content: center
+  padding: 6px 0 4px
+
+  a
+    width: 91.59px
+    text-decoration: none
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    align-items: center
+    color: #fff
+    font-weight: bold
+    gap: 4px
+    text-transform: uppercase
+    cursor: pointer
+
+    img
+      height: 72px
+  
+  .aActive
+    @extend a
+    color: $snesLogo
+
+main
+  flex: 1
+  background-color: yellow
+
+footer
+  background-color: #fff
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
