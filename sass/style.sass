@@ -1,22 +1,45 @@
 @font-face
   font-family: "snes"
-  src: url("../fonts/super-nintendo/SNES.ttf") format("ttf")
+  src: url("../fonts/super-nintendo/SNES.ttf") format("truetype")
 
 @font-face
   font-family: "nintendo"
-  src: url("../fonts/pretendo/Pretendo.ttf") format("ttf")
+  src: url("../fonts/pretendo/Pretendo.ttf") format("truetype")
 
 @font-face
   font-family: "logos"
-  src: url("../fonts/game-logos/GameLogos.ttf") format("ttf")
+  src: url("../fonts/game-logos/GameLogos.ttf") format("truetype")
 
 // SNES
 $snesLogo:                  #fc0c18
+
 $snesConsole:               #cac8cd
+$snesConsoleL5:             #fcfcfc
+$snesConsoleL4:             #f4f4f5
+$snesConsoleL3:             #e9e9eb
+$snesConsoleL2:             #dfdde0
+$snesConsoleL1:             #d4d2d6
+$snesConsoleD1:             #b5b2b9
+$snesConsoleD2:             #a09ca6
+$snesConsoleD3:             #8c8793
+$snesConsoleD4:             #78737f
+$snesConsoleD5:             #64606a
+
 $snesControllerLogo:        #8f8d94
 $snesControllerYX:          #b3b1e3
 $snesControllerBA:          #5b3893
-$snesControllerStartSelect: #373737
+
+$snesControllerStartSelect:   #373737
+$snesControllerStartSelectL5: #f3f3f3
+$snesControllerStartSelectL4: #d7d7d7
+$snesControllerStartSelectL3: #afafaf
+$snesControllerStartSelectL2: #888888
+$snesControllerStartSelectL1: #606060
+$snesControllerStartSelectD1: #323232
+$snesControllerStartSelectD2: #2d2d2d
+$snesControllerStartSelectD3: #272727
+$snesControllerStartSelectD4: #222222
+$snesControllerStartSelectD5: #1c1c1c
 
 // SFC
 $sfcPower:                  #5c5e60
@@ -47,7 +70,7 @@ header
   align-items: flex-end
 
 nav
-  background-color: #000
+  background-color: $snesControllerStartSelectD5
   display: flex
   flex-direction: row
   gap: 32px
@@ -76,7 +99,70 @@ nav
 
 main
   flex: 1
-  background-color: yellow
+  display: flex
+  flex-direction: column
+  align-items: center
+  background-color: $snesConsoleL3
+  padding: 32px 0
+  gap: 32px
+
+  .snes
+    background-color: #fff
+    width: 83.7%
+    border-radius: 4px
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12)
+    padding: 16px
+
+  .sfc
+    @extend .snes
+    width: 87%
+    border-radius: 8px
+
+.emulatorsMain
+  @extend main
+  flex-direction: row
+  justify-content: center
+  padding: 32px 64px
+  background-color: $snesConsoleD5
+
+  .emulatorCard
+    background-color: $snesConsoleL4
+    border: 1px solid $snesConsoleD3
+    border-radius: 8px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding: 8px
+    gap: 8px
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12)
+
+    label
+      font-weight: bold
+      background-color: $snesConsoleL5
+      color: $snesControllerStartSelect
+      border: 2px solid $snesConsole
+      text-align: center
+      padding: 4px
+      border-radius: 4px
+      width: 100%
+    
+    .button
+      text-decoration: none
+      font-size: 20px
+      font-family: "nintendo"
+      border: 4px solid $snesConsoleD5
+      background-color: $snesConsoleL5
+      color: $snesControllerStartSelect
+      padding: 16px 0 10px
+      width: 100%
+      text-align: center
+      border-radius: 8px
+
+      &:hover
+        background-color: $snesControllerStartSelectD5
+        color: $fmcGreen
+        border-color: $snesControllerStartSelectD5
 
 footer
   background-color: #fff
