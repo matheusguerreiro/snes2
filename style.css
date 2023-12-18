@@ -3,7 +3,7 @@
   src: url("../fonts/super-nintendo/SNES.ttf") format("truetype");
 }
 @font-face {
-  font-family: "nintendo";
+  font-family: nintendo;
   src: url("../fonts/pretendo/Pretendo.ttf") format("truetype");
 }
 @font-face {
@@ -112,7 +112,7 @@ main .sfc, .emulatorsMain .sfc {
 .emulatorsMain .emulatorCard .button {
   text-decoration: none;
   font-size: 20px;
-  font-family: "nintendo";
+  font-family: nintendo;
   border: 4px solid #64606a;
   background-color: #fcfcfc;
   color: #373737;
