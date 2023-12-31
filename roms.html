@@ -1,42 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"  content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>SNES</title>
-</head>
-<body>
-  <header>
-    <img src="images/four_mark_128.png" alt="four mark">
-    <img src="images/SNES_logo_96.png"  alt="snes">
-    <img src="images/four_mark_128.png" alt="four mark">
-  </header>
-  <nav>
-    <a href="index.html">
-      <img src="images/Mario_e_Yoshi_96.png" alt="Mario e Yoshi">
-      <label>Home</label>
-    </a>
-    <a href="emulators.html">
-      <img src="images/Samus_96.png" alt="Samus">
-      Emuladores
-    </a>
-    <a href="#" class="aActive">
-      <img src="images/Link_96.png" alt="Link">
-      ROMs
-    </a>
-    <a href="history.html">
-      <img src="images/DK_96.png" alt="DK">
-      História
-    </a>
-  </nav>
-  <main>
-    <h1>roms</h1>
-  </main>
-  <footer>
-    <img src="images/SFC_logo_mark_64.png" alt="sfc mark">
-    <img src="images/SFC_logo_name_48.png" alt="sfc">
-    <img src="images/SFC_logo_mark_64.png" alt="sfc mark">
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>SNES</title>
+    <script type="module">
+      import { fetchData } from "./js/index.js";
+
+      const romsMain = document.querySelector(".romsMain")
+      const input = document.getElementById("input")
+
+      let romCards = []
+
+      fetchData().then((data) => {
+        data.forEach(d => {
+          const romCard = document.createElement("div")
+          romCard.classList.add("romCard")
+          romCard.innerHTML = `
+            <img src="${d.front}" alt="${d.title}" class="front">
+          `
+          
+          const background = document.createElement("div")
+          background.classList.add("background")
+          background.style.display = "none"
+          background.innerHTML = `
+            <div class="content">
+              <img src="${d.game}" alt="${d.title}" class="game">
+              <a href="${d.rom}" class="download">Download</a>
+            </div> 
+          `
+
+          const game = background.querySelector(".game")
+
+          romCard.addEventListener("click", () => changeDisplay(background))
+          game.addEventListener("click", () => changeDisplay(background))
+
+          romsMain.appendChild(romCard)
+          romsMain.appendChild(background)
+
+          romCards.push({
+            title: d.title,
+            card: romCard
+          })
+        });
+
+        input.addEventListener("input", filterCards)
+
+      });
+
+      const changeDisplay = (element) => {
+        element.style.display = element.style.display === "none" ? "flex" : "none"
+        document.body.style.overflow = element.style.display === "none" ? "auto" : "hidden"
+      }
+
+      const filterCards = () => {
+        const filterTitle = input.value.toLowerCase()
+
+        romCards.forEach(({title, card}) => {
+          if (title.toLowerCase().includes(filterTitle)) {
+            card.style.display = "flex"
+          } else {
+            card.style.display = "none"
+          }
+        })
+      }
+
+      window.onload = fetchData;
+    </script>
+  </head>
+  <body>
+    <header>
+      <img src="images/four_mark_128.png" alt="four mark" />
+      <img src="images/SNES_logo_96.png" alt="snes" />
+      <img src="images/four_mark_128.png" alt="four mark" />
+    </header>
+    <nav>
+      <a href="index.html">
+        <img src="images/Mario_e_Yoshi_96.png" alt="Mario e Yoshi" />
+        <label>Home</label>
+      </a>
+      <a href="emulators.html">
+        <img src="images/Samus_96.png" alt="Samus" />
+        Emuladores
+      </a>
+      <a href="#" class="aActive">
+        <img src="images/Link_96.png" alt="Link" />
+        ROMs
+      </a>
+      <a href="history.html">
+        <img src="images/DK_96.png" alt="DK" />
+        História
+      </a>
+    </nav>
+    <main class="romsMain">
+      <input type="text" name="" id="input" placeholder="Mario ...">
+      <!-- ... -->
+    </main>
+    <footer>
+      <img src="images/SFC_logo_mark_64.png" alt="sfc mark" />
+      <img src="images/SFC_logo_name_48.png" alt="sfc" />
+      <img src="images/SFC_logo_mark_64.png" alt="sfc mark" />
+    </footer>
+  </body>
 </html>
