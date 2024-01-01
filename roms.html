@@ -14,7 +14,7 @@
       let romCards = []
 
       fetchData().then((data) => {
-        data.forEach(d => {
+        data?.forEach(d => {
           const romCard = document.createElement("div")
           romCard.classList.add("romCard")
           romCard.innerHTML = `
