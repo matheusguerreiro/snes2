@@ -1,7 +1,7 @@
 
 export async function fetchData() {
   try {
-    const res = await fetch('../data.json');
+    const res = await fetch('js/index.js');
 
     if (!res.ok) {
       throw new Error(`Erro ao carregar o arquivo JSON: ${res.status}`);
