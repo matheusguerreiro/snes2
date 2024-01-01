@@ -128,15 +128,35 @@ main .sfc, .romsMain .sfc, .emulatorsMain .sfc {
 }
 
 .romsMain {
-  flex-direction: row;
+  padding: 32px;
+}
+.romsMain .input-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.romsMain .input-container i {
+  font-size: 16px;
+  position: absolute;
+  left: 10px;
+  color: #1c1c1c;
+}
+.romsMain .input-container #input {
+  padding: 8px 10px 6px 28px;
+  border-radius: 8px;
+  border-color: #8c8793;
+  font-size: 16px;
+}
+.romsMain .roms-main-content {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: yellow;
+  gap: 32px;
 }
-.romsMain .romCard {
+.romsMain .roms-main-content .romCard {
   cursor: pointer;
 }
-.romsMain .romCard .front {
+.romsMain .roms-main-content .front {
   width: 384px;
   border-radius: 2px;
 }

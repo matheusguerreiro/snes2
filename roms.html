@@ -4,17 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <title>SNES</title>
     <script type="module">
       import { fetchData } from "./js/index.js";
 
       const romsMain = document.querySelector(".romsMain")
+      const romsMainContent = romsMain.querySelector(".roms-main-content")
       const input = document.getElementById("input")
 
       let romCards = []
 
       fetchData().then((data) => {
-        data?.forEach(d => {
+        data.forEach(d => {
           const romCard = document.createElement("div")
           romCard.classList.add("romCard")
           romCard.innerHTML = `
@@ -36,8 +38,8 @@
           romCard.addEventListener("click", () => changeDisplay(background))
           game.addEventListener("click", () => changeDisplay(background))
 
-          romsMain.appendChild(romCard)
-          romsMain.appendChild(background)
+          romsMainContent.appendChild(romCard)
+          romsMainContent.appendChild(background)
 
           romCards.push({
             title: d.title,
@@ -94,8 +96,13 @@
       </a>
     </nav>
     <main class="romsMain">
-      <input type="text" name="" id="input" placeholder="Mario ...">
-      <!-- ... -->
+      <div class="input-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <input type="text" name="" id="input" placeholder="Mario ...">
+      </div>
+      <div class="roms-main-content">
+        <!-- ... -->
+      </div>
     </main>
     <footer>
       <img src="images/SFC_logo_mark_64.png" alt="sfc mark" />

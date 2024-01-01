@@ -168,13 +168,33 @@ main
 
 .romsMain
   @extend main
-  flex-direction: row
-  flex-wrap: wrap
-  justify-content: center
-  background-color: yellow
+  padding: 32px
 
-  .romCard
-    cursor: pointer
+  .input-container
+    display: flex
+    position: relative
+    align-items: center
+
+    i
+      font-size: 16px
+      position: absolute
+      left: 10px
+      color: $snesControllerStartSelectD5
+
+    #input
+      padding: 8px 10px 6px 28px
+      border-radius: 8px
+      border-color: $snesConsoleD3
+      font-size: 16px
+
+  .roms-main-content
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    gap: 32px
+
+    .romCard
+      cursor: pointer
     
     .front
       width: 384px
