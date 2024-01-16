@@ -136,11 +136,35 @@
     "region": "US"
   },
   {
+    "id": "98e79a07-f1ce-8564-8a17-d73c67cbf2be",
+    "title": "Super Mario RPG - Legend of the Seven Stars",
+    "front": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212116&authkey=%21ALLAhklI9ZTgti0&width=768&height=557",
+    "game": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212117&authkey=%21AEFYMxgsil_zhk4&width=891&height=1024",
+    "rom": "https://drive.google.com/uc?export=download&id=1CvKiFp1NUGwxNolOlmkX-Xt-DxDaks93",
+    "region": "US"
+  },
+  {
     "id": "af6ff215-488a-434a-912e-2549fbcfd0b6",
     "title": "Mega Man X 3",
     "front": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212110&authkey=%21AEGKv72rlydcV6A&width=768&height=557",
     "game": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212081&authkey=%21ACIZEMZOgjq54h8&width=891&height=1024",
     "rom": "https://drive.google.com/uc?export=download&id=1CxVwgkWumnHKtvAo0jFK4W1EeXlWH0vJ",
+    "region": "US"
+  },
+  {
+    "id": "c7243dd4-e064-cab0-b705-755a2aa01e0b",
+    "title": "Donkey Kong Country 3 - Dixie Kong's Double Trouble",
+    "front": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212119&authkey=%21AJ5O3AMtf7Az4Ro&width=768&height=557",
+    "game": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212120&authkey=%21ALshFN2wwwNRXzE&width=891&height=1024",
+    "rom": "https://drive.google.com/uc?export=download&id=1qH9hA-sys0qY2QPErA_Xciqjsf12YvsM",
+    "region": "US"
+  },
+  {
+    "id": "dd84a990-aaf6-6720-5aee-725fb4f037a1",
+    "title": "Star Fox 2",
+    "front": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212118&authkey=%21AF9KsiWIkUIeiW8&width=768&height=557",
+    "game": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212121&authkey=%21AGcjLTMd2CvAXWw&width=891&height=1024",
+    "rom": "https://drive.google.com/uc?export=download&id=1F3YK4iM68fy9aq6Q3nmpXH6AOpxNMj63",
     "region": "US"
   },
   {
