@@ -2,24 +2,24 @@
   {
     "id": "d9eb141d-573a-b38a-794e-985a039d96e9",
     "title": "Super Mario World",
-    "front": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212105&authkey=%21ACbYl4o2oWj8_I4&width=768&height=557",
-    "game": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212101&authkey=%21AE-s67MWuUPXRbU&width=891&height=1024",
+    "front": "images/roms/SuperMarioWorld_front.jpg",
+    "game": "images/roms/SuperMarioWorld_game.jpg",
     "rom": "https://drive.google.com/uc?export=download&id=1OlfPMpfH4CoWpM1VrSEOm_vW2nrprGlG",
     "region": "US"
   },
   {
     "id": "aeae419a-b07a-5a71-ff10-6c91ea31d25e",
     "title": "Super Mario All-Stars",
-    "front": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212108&authkey=%21APxioWHajlc2zSU&width=768&height=557",
-    "game": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212088&authkey=%21ANoch0QugEDfGGo&width=891&height=1024",
+    "front": "images/roms/SuperMarioAllStars_front.jpg",
+    "game": "images/roms/SuperMarioAllStars_game.jpg",
     "rom": "https://drive.google.com/uc?export=download&id=1JzK0ZSYz6-5gRbst2REVh7vWcVQcKpAk",
     "region": "US"
   },
   {
     "id": "40c9c540-6592-ecd0-0064-b6aec35428b9",
     "title": "Super Mario Kart",
-    "front": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212085&authkey=%21ABbbpm4VglXucGI&width=768&height=557",
-    "game": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212114&authkey=%21AG-O_F4NKMs08TE&width=891&height=1024",
+    "front": "images/roms/SuperMarioKart_front.jpg",
+    "game": "images/roms/SuperMarioKart_front.jpg",
     "rom": "https://drive.google.com/uc?export=download&id=1jbLMeYrdI2v5NvVLblO5uCXCrw1EOI9T",
     "region": "US"
   },
