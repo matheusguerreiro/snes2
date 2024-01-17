@@ -26,24 +26,24 @@
   {
     "id": "8bb5df78-9caf-335f-e2e7-59446512a1f5",
     "title": "Mega Man X",
-    "front": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212115&authkey=%21AMhJKlYwsKtIDQc&width=768&height=557",
-    "game": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212112&authkey=%21AHilkkwBDovPW_I&width=891&height=1024",
+    "front": "images/roms/MegaManX_front.jpg",
+    "game": "images/roms/MegaManX_game.jpg",
     "rom": "https://drive.google.com/uc?export=download&id=1FbunRFQCQMxM1qkSwazxHVN-QVAx62dx",
     "region": "US"
   },
   {
     "id": "90ca1518-df5d-0ea0-0644-f468e0646211",
     "title": "Donkey Kong Country",
-    "front": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212107&authkey=%21AIdqL1YLZYqDHnE&width=768&height=557",
-    "game": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212086&authkey=%21ANpWx5DQtt3JNPs&width=891&height=1024",
+    "front": "images/roms/DonkeyKongCountry_front.jpg",
+    "game": "images/roms/DonkeyKongCountry_game.jpg",
     "rom": "https://drive.google.com/uc?export=download&id=1m6eO13dsvWD8lcdMUpdUJOFs06kCj6P-",
     "region": "US"
   },
   {
     "id": "7a534368-46c6-f0de-0055-0264881f0d9d",
     "title": "Legend of Zelda, The - A Link to the Past",
-    "front": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212111&authkey=%21AMsVPD_vdop79c0&width=768&height=557",
-    "game": "https://onedrive.live.com/embed?resid=3F8E5CD1B29AA4D2%212109&authkey=%21AJ_om1d-jwWjnic&width=891&height=1024",
+    "front": "images/roms/LegendofZeldaTheALinktothePast_front.jpg",
+    "game": "images/roms/LegendofZeldaTheALinktothePast_game.jpg",
     "rom": "https://drive.google.com/uc?export=download&id=1mgskeisqEfBvtHmM2oRSt9FE0xHavRpE",
     "region": "US"
   },
