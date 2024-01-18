@@ -156,9 +156,16 @@ main .sfc, .romsMain .sfc, .emulatorsMain .sfc {
 .romsMain .roms-main-content .romCard {
   cursor: pointer;
 }
-.romsMain .roms-main-content .front {
+.romsMain .roms-main-content .front, .romsMain .roms-main-content .front-jp {
   width: 384px;
   border-radius: 2px;
+  height: 279px;
+}
+.romsMain .roms-main-content .front:hover, .romsMain .roms-main-content .front-jp:hover {
+  box-shadow: 0px 0px 2px 2px #fc0c18;
+}
+.romsMain .roms-main-content .front-jp {
+  height: fit-content;
 }
 .romsMain .background {
   position: fixed;

@@ -20,7 +20,7 @@
           const romCard = document.createElement("div")
           romCard.classList.add("romCard")
           romCard.innerHTML = `
-            <img src="${d.front}" alt="${d.title}" class="front">
+            <img src="${d.front}" alt="${d.title}" class="${d.region === "JP" ? "front-jp" : "front"}">
           `
           
           const background = document.createElement("div")
