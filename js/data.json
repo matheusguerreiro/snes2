@@ -320,6 +320,14 @@
     "region": "JP"
   },
   {
+    "id": "34b805a5-d911-81f0-0af4-c9845de713b5",
+    "title": "Dragon Ball Z - Super Saiya Densetsu",
+    "front": "images/roms/DragonBallZSuperSaiyaDensetsu_front.jpg",
+    "game": "images/roms/DragonBallZSuperSaiyaDensetsu_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1vgrLPi4Q6-igbKXdr6XNI5BlghUcYPuI",
+    "region": "JP"
+  },
+  {
     "id": "139f8e6f-de3d-8b94-8f50-482845eaefc0",
     "title": "Dragon Quest I & II",
     "front": "images/roms/DragonQuestI&II_front.jpg",
@@ -333,14 +341,6 @@
     "front": "images/roms/DragonQuestIIISoshiteDensetsuhe_front.jpg",
     "game": "images/roms/DragonQuestIIISoshiteDensetsuhe_game.jpg",
     "rom": "https://drive.google.com/uc?export=download&id=1IclnqcxogoxmsGH90jgFA-unUNjY3lfx",
-    "region": "JP"
-  },
-  {
-    "id": "34b805a5-d911-81f0-0af4-c9845de713b5",
-    "title": "Dragon Ball Z - Super Saiya Densetsu",
-    "front": "images/roms/DragonBallZSuperSaiyaDensetsu_front.jpg",
-    "game": "images/roms/DragonBallZSuperSaiyaDensetsu_game.jpg",
-    "rom": "https://drive.google.com/uc?export=download&id=1vgrLPi4Q6-igbKXdr6XNI5BlghUcYPuI",
     "region": "JP"
   },
   {
