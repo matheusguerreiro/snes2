@@ -304,6 +304,22 @@
     "region": "US"
   },
   {
+    "id": "17823007-2dba-97f1-1e8d-9561c9c4f6cf",
+    "title": "Mega Man VII",
+    "front": "images/roms/MegaManVII_front.jpg",
+    "game": "images/roms/MegaManVII_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=13XhKZTRLZV4H8qRQWgGRpuoVObKpJ7LT",
+    "region": "US"
+  },
+  {
+    "id": "8b0fd8cc-7f7f-3bfb-0823-0757cd5e0e4b",
+    "title": "Zombies Ate My Neighbors",
+    "front": "images/roms/ZombiesAteMyNeighbors_front.jpg",
+    "game": "images/roms/ZombiesAteMyNeighbors_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1Ah9s0i3BTiDsTeDTC6juJ5AjpXq2OoP0",
+    "region": "US"
+  },
+  {
     "id": "a72ad462-6674-5b7c-08d8-236736cc08f2",
     "title": "Super Bomberman 5",
     "front": "images/roms/SuperBomberman5_front.jpg",
@@ -320,14 +336,6 @@
     "region": "JP"
   },
   {
-    "id": "34b805a5-d911-81f0-0af4-c9845de713b5",
-    "title": "Dragon Ball Z - Super Saiya Densetsu",
-    "front": "images/roms/DragonBallZSuperSaiyaDensetsu_front.jpg",
-    "game": "images/roms/DragonBallZSuperSaiyaDensetsu_game.jpg",
-    "rom": "https://drive.google.com/uc?export=download&id=1vgrLPi4Q6-igbKXdr6XNI5BlghUcYPuI",
-    "region": "JP"
-  },
-  {
     "id": "139f8e6f-de3d-8b94-8f50-482845eaefc0",
     "title": "Dragon Quest I & II",
     "front": "images/roms/DragonQuestI&II_front.jpg",
@@ -341,6 +349,14 @@
     "front": "images/roms/DragonQuestIIISoshiteDensetsuhe_front.jpg",
     "game": "images/roms/DragonQuestIIISoshiteDensetsuhe_game.jpg",
     "rom": "https://drive.google.com/uc?export=download&id=1IclnqcxogoxmsGH90jgFA-unUNjY3lfx",
+    "region": "JP"
+  },
+  {
+    "id": "34b805a5-d911-81f0-0af4-c9845de713b5",
+    "title": "Dragon Ball Z - Super Saiya Densetsu",
+    "front": "images/roms/DragonBallZSuperSaiyaDensetsu_front.jpg",
+    "game": "images/roms/DragonBallZSuperSaiyaDensetsu_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1vgrLPi4Q6-igbKXdr6XNI5BlghUcYPuI",
     "region": "JP"
   },
   {
