@@ -320,6 +320,30 @@
     "region": "US"
   },
   {
+    "id": "4de432fb-479a-666c-3f4e-1298d9425313",
+    "title": "Doom",
+    "front": "images/roms/Doom_front.jpg",
+    "game": "images/roms/Doom_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1Hz-QEN4Ory8CBssYoiNv985pVMb3OQXv",
+    "region": "US"
+  },
+  {
+    "id": "ba4ea047-44d8-f761-0c8f-ac1e421278eb",
+    "title": "X-Men - Mutant Apocalypse",
+    "front": "images/roms/XMenMutantApocalypse_front.jpg",
+    "game": "images/roms/XMenMutantApocalypse_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1so1PIog6AP325vq2RifZu8xlh940l6w2",
+    "region": "US"
+  },
+  {
+    "id": "2733a7f0-39ba-9743-a610-829b935c6b45",
+    "title": "Seiken Densetsu 3",
+    "front": "images/roms/SeikenDensetsu3_front.jpg",
+    "game": "images/roms/SeikenDensetsu3_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1sDoeBe7_NuzEaGt7wGmb9XK9LQ5ws52p",
+    "region": "JP"
+  },
+  {
     "id": "a72ad462-6674-5b7c-08d8-236736cc08f2",
     "title": "Super Bomberman 5",
     "front": "images/roms/SuperBomberman5_front.jpg",
