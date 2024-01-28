@@ -174,18 +174,25 @@ main
     display: flex
     position: relative
     align-items: center
+    width: 320px
 
     i
       font-size: 16px
       position: absolute
-      left: 10px
+      left: 11px
       color: $snesControllerStartSelectD5
 
+    .fa-times
+      @extend i
+      left: 298px
+      cursor: pointer
+
     #input
-      padding: 8px 10px 6px 28px
+      padding: 8px 10px 6px 29px
       border-radius: 8px
       border-color: $snesConsoleD3
       font-size: 16px
+      width: 100%
 
   .roms-main-content
     display: flex

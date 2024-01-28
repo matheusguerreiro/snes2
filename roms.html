@@ -4,71 +4,83 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
     <title>SNES</title>
     <script type="module">
       import { fetchData } from "./js/index.js";
 
-      const romsMain = document.querySelector(".romsMain")
-      const romsMainContent = romsMain.querySelector(".roms-main-content")
-      const input = document.getElementById("input")
-
-      let romCards = []
+      const romsMain = document.querySelector(".romsMain");
+      const romsMainContent = romsMain.querySelector(".roms-main-content");
+      const input = document.getElementById("input");
 
       fetchData().then((data) => {
-        data.forEach(d => {
-          const romCard = document.createElement("div")
-          romCard.classList.add("romCard")
+        data.forEach((d) => {
+          const romCard = document.createElement("div");
+          romCard.classList.add("romCard");
           romCard.innerHTML = `
-            <img src="${d.front}" alt="${d.title}" class="${d.region === "JP" ? "front-jp" : "front"}">
-          `
-          
-          const background = document.createElement("div")
-          background.classList.add("background")
-          background.style.display = "none"
+            <img src="${d.front}" alt="${d.title}" class="${
+            d.region === "JP" ? "front-jp" : "front"
+          }">
+          `;
+
+          const background = document.createElement("div");
+          background.classList.add("background");
+          background.style.display = "none";
           background.innerHTML = `
             <div class="content">
               <img src="${d.game}" alt="${d.title}" class="game">
               <a href="${d.rom}" class="download">Download</a>
             </div> 
-          `
+          `;
 
-          const game = background.querySelector(".game")
+          const game = background.querySelector(".game");
 
-          romCard.addEventListener("click", () => changeDisplay(background))
-          game.addEventListener("click", () => changeDisplay(background))
+          romCard.addEventListener("click", () => changeDisplay(background));
+          game.addEventListener("click", () => changeDisplay(background));
 
-          romsMainContent.appendChild(romCard)
-          romsMainContent.appendChild(background)
+          romsMainContent.appendChild(romCard);
+          romsMainContent.appendChild(background);
 
           romCards.push({
             title: d.title,
-            card: romCard
-          })
+            card: romCard,
+          });
         });
 
-        input.addEventListener("input", filterCards)
-
+        input.addEventListener("input", filterCards);
       });
 
       const changeDisplay = (element) => {
-        element.style.display = element.style.display === "none" ? "flex" : "none"
-        document.body.style.overflow = element.style.display === "none" ? "auto" : "hidden"
-      }
+        element.style.display =
+          element.style.display === "none" ? "flex" : "none";
+        document.body.style.overflow =
+          element.style.display === "none" ? "auto" : "hidden";
+      };
 
       const filterCards = () => {
-        const filterTitle = input.value.toLowerCase()
+        const filterTitle = input.value.toLowerCase();
 
-        romCards.forEach(({title, card}) => {
+        romCards.forEach(({ title, card }) => {
           if (title.toLowerCase().includes(filterTitle)) {
-            card.style.display = "flex"
+            card.style.display = "flex";
           } else {
-            card.style.display = "none"
+            card.style.display = "none";
           }
-        })
-      }
+        });
+      };
 
       window.onload = fetchData;
+    </script>
+    <script>
+      let romCards = [];
+
+      const cleanInput = () => {
+        input.value = "";
+
+        romCards.forEach(({ title, card }) => {
+          card.style.display = card.style.display === "none" ? "flex" : "";
+        });
+      }
     </script>
   </head>
   <body>
@@ -98,7 +110,8 @@
     <main class="romsMain">
       <div class="input-container">
         <i class="fa fa-search" aria-hidden="true"></i>
-        <input type="text" name="" id="input" placeholder="Mario ...">
+        <input type="text" name="" id="input" placeholder="Mario ..." />
+        <i class="fa fa-times" aria-hidden="true" onclick="cleanInput()"></i>
       </div>
       <div class="roms-main-content">
         <!-- ... -->
