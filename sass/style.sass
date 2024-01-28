@@ -52,6 +52,13 @@ $fmcBlue:                   #00a7eb
 $fmcRed:                    #e60012
 $fmcYellow:                 #ffe100
 
+// responsive
+$mobileL: 425px
+
+@mixin mobileL
+  @media (max-width: $mobileL)
+    @content
+  
 *
   margin: 0
   padding: 0
@@ -70,6 +77,13 @@ header
   flex-direction: row
   justify-content: space-between
   align-items: flex-end
+
+  @include mobileL
+    .four-mark
+      height: 64px
+
+    .snes-logo
+      height: 48px
 
 nav
   background-color: $snesControllerStartSelectD5
@@ -98,6 +112,14 @@ nav
   .aActive
     @extend a
     color: $snesLogo
+
+  @include mobileL
+    a
+      width: 23px
+      font-size: 8px
+
+      img
+        height: 36px
 
 main
   flex: 1
@@ -166,6 +188,13 @@ main
         color: $fmcGreen
         border-color: $snesControllerStartSelectD5
 
+  @include mobileL
+    flex-direction: column
+
+    .emulatorCard
+      img
+        height: 40px
+
 .romsMain
   @extend main
   padding: 32px
@@ -203,17 +232,17 @@ main
     .romCard
       cursor: pointer
     
-    .front
-      width: 384px
-      border-radius: 2px
-      height: 279px
+      .front
+        width: 384px
+        border-radius: 2px
+        height: 279px
 
-      &:hover
-        box-shadow: 0px 0px 2px 2px $snesLogo
+        &:hover
+          box-shadow: 0px 0px 2px 2px $snesLogo
 
-    .front-jp
-      @extend .front
-      height: fit-content
+      .front-jp
+        @extend .front
+        height: fit-content
     
   .background
     position: fixed
@@ -242,7 +271,7 @@ main
       .game
         width: auto
         height: 90%
-        border-radius: 4px
+        border-radius: 4px 4px 0 0
 
       .download
         background-color: #000
@@ -260,9 +289,42 @@ main
         &:hover
           color: $fmcGreen
 
+  @include mobileL
+    .roms-main-content
+      .romCard
+        .front
+          width: 100%
+          height: auto
+
+    .input-container
+      width: 100%
+
+      .fa-times
+        left: 234px
+
+    .background
+      .content
+        width: 100%
+        height: auto
+        .game
+          width: 100%
+          height: auto
+        .download
+          height: auto
+          width: 100%
+          padding: 4px 0 2px 0
+
 footer
   background-color: #fff
   display: flex
   flex-direction: row
   justify-content: space-between
   align-items: center
+
+  @include mobileL
+    .sfc-mark
+      height: 32px
+
+    .sfc-logo
+      height: 24px
+  

@@ -31,6 +31,14 @@ header {
   justify-content: space-between;
   align-items: flex-end;
 }
+@media (max-width: 425px) {
+  header .four-mark {
+    height: 64px;
+  }
+  header .snes-logo {
+    height: 48px;
+  }
+}
 
 nav {
   background-color: #1c1c1c;
@@ -58,6 +66,15 @@ nav a img, nav .aActive img {
 }
 nav .aActive {
   color: #fc0c18;
+}
+@media (max-width: 425px) {
+  nav a, nav .aActive {
+    width: 23px;
+    font-size: 8px;
+  }
+  nav a img, nav .aActive img {
+    height: 36px;
+  }
 }
 
 main, .romsMain, .emulatorsMain {
@@ -126,6 +143,14 @@ main .sfc, .romsMain .sfc, .emulatorsMain .sfc {
   color: #6eb92b;
   border-color: #1c1c1c;
 }
+@media (max-width: 425px) {
+  .emulatorsMain {
+    flex-direction: column;
+  }
+  .emulatorsMain .emulatorCard img {
+    height: 40px;
+  }
+}
 
 .romsMain {
   padding: 32px;
@@ -162,15 +187,15 @@ main .sfc, .romsMain .sfc, .emulatorsMain .sfc {
 .romsMain .roms-main-content .romCard {
   cursor: pointer;
 }
-.romsMain .roms-main-content .front, .romsMain .roms-main-content .front-jp {
+.romsMain .roms-main-content .romCard .front, .romsMain .roms-main-content .romCard .front-jp {
   width: 384px;
   border-radius: 2px;
   height: 279px;
 }
-.romsMain .roms-main-content .front:hover, .romsMain .roms-main-content .front-jp:hover {
+.romsMain .roms-main-content .romCard .front:hover, .romsMain .roms-main-content .romCard .front-jp:hover {
   box-shadow: 0px 0px 2px 2px #fc0c18;
 }
-.romsMain .roms-main-content .front-jp {
+.romsMain .roms-main-content .romCard .front-jp {
   height: fit-content;
 }
 .romsMain .background {
@@ -199,7 +224,7 @@ main .sfc, .romsMain .sfc, .emulatorsMain .sfc {
 .romsMain .background .content .game {
   width: auto;
   height: 90%;
-  border-radius: 4px;
+  border-radius: 4px 4px 0 0;
 }
 .romsMain .background .content .download {
   background-color: #000;
@@ -217,6 +242,31 @@ main .sfc, .romsMain .sfc, .emulatorsMain .sfc {
 .romsMain .background .content .download:hover {
   color: #6eb92b;
 }
+@media (max-width: 425px) {
+  .romsMain .roms-main-content .romCard .front, .romsMain .roms-main-content .romCard .front-jp {
+    width: 100%;
+    height: auto;
+  }
+  .romsMain .input-container {
+    width: 100%;
+  }
+  .romsMain .input-container .fa-times {
+    left: 234px;
+  }
+  .romsMain .background .content {
+    width: 100%;
+    height: auto;
+  }
+  .romsMain .background .content .game {
+    width: 100%;
+    height: auto;
+  }
+  .romsMain .background .content .download {
+    height: auto;
+    width: 100%;
+    padding: 4px 0 2px 0;
+  }
+}
 
 footer {
   background-color: #fff;
@@ -224,6 +274,14 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 425px) {
+  footer .sfc-mark {
+    height: 32px;
+  }
+  footer .sfc-logo {
+    height: 24px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
