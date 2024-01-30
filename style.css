@@ -31,7 +31,7 @@ header {
   justify-content: space-between;
   align-items: flex-end;
 }
-@media (max-width: 425px) {
+@media (max-width: 597px) {
   header .four-mark {
     height: 64px;
   }
@@ -67,7 +67,7 @@ nav a img, nav .aActive img {
 nav .aActive {
   color: #fc0c18;
 }
-@media (max-width: 425px) {
+@media (max-width: 597px) {
   nav a, nav .aActive {
     width: 23px;
     font-size: 8px;
@@ -143,7 +143,7 @@ main .sfc, .romsMain .sfc, .emulatorsMain .sfc {
   color: #6eb92b;
   border-color: #1c1c1c;
 }
-@media (max-width: 425px) {
+@media (max-width: 597px) {
   .emulatorsMain {
     flex-direction: column;
   }
@@ -242,7 +242,7 @@ main .sfc, .romsMain .sfc, .emulatorsMain .sfc {
 .romsMain .background .content .download:hover {
   color: #6eb92b;
 }
-@media (max-width: 425px) {
+@media (max-width: 597px) {
   .romsMain .roms-main-content .romCard .front, .romsMain .roms-main-content .romCard .front-jp {
     width: 100%;
     height: auto;
@@ -275,7 +275,7 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 425px) {
+@media (max-width: 597px) {
   footer .sfc-mark {
     height: 32px;
   }
