@@ -97,6 +97,11 @@ main .sfc, .romsMain .sfc, .emulatorsMain .sfc {
   width: 87%;
   border-radius: 8px;
 }
+@media (max-width: 510px) {
+  main, .romsMain, .emulatorsMain {
+    justify-content: space-evenly;
+  }
+}
 
 .emulatorsMain {
   flex-direction: row;
@@ -147,6 +152,7 @@ main .sfc, .romsMain .sfc, .emulatorsMain .sfc {
 @media (max-width: 510px) {
   .emulatorsMain {
     flex-direction: column;
+    justify-content: space-evenly;
   }
   .emulatorsMain .emulatorCard {
     width: 100%;
