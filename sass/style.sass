@@ -53,10 +53,10 @@ $fmcRed:                    #e60012
 $fmcYellow:                 #ffe100
 
 // responsive
-$mobileL: 597px
+$mobile: 510px
 
-@mixin mobileL
-  @media (max-width: $mobileL)
+@mixin mobile
+  @media (max-width: $mobile)
     @content
   
 *
@@ -78,7 +78,7 @@ header
   justify-content: space-between
   align-items: flex-end
 
-  @include mobileL
+  @include mobile
     .four-mark
       height: 64px
 
@@ -113,13 +113,13 @@ nav
     @extend a
     color: $snesLogo
 
-  @include mobileL
+  @include mobile
     a
-      width: 23px
+      width: 30.53px
       font-size: 8px
 
       img
-        height: 36px
+        height: 48px
 
 main
   flex: 1
@@ -150,6 +150,7 @@ main
   background-color: $snesConsoleD5
 
   .emulatorCard
+    width: 100%
     background-color: $snesConsoleL4
     border: 1px solid $snesConsoleD3
     border-radius: 8px
@@ -188,7 +189,7 @@ main
         color: $fmcGreen
         border-color: $snesControllerStartSelectD5
 
-  @include mobileL
+  @include mobile
     flex-direction: column
 
     .emulatorCard
@@ -203,7 +204,8 @@ main
     display: flex
     position: relative
     align-items: center
-    width: 320px
+    justify-content: center
+    width: 256px
 
     i
       font-size: 16px
@@ -213,7 +215,7 @@ main
 
     .fa-times
       @extend i
-      left: 298px
+      left: 232px
       cursor: pointer
 
     #input
@@ -289,18 +291,12 @@ main
         &:hover
           color: $fmcGreen
 
-  @include mobileL
+  @include mobile
     .roms-main-content
       .romCard
         .front
           width: 100%
           height: auto
-
-    .input-container
-      width: 100%
-
-      .fa-times
-        left: 234px
 
     .background
       .content
@@ -312,7 +308,7 @@ main
         .download
           height: auto
           width: 100%
-          padding: 4px 0 2px 0
+          padding: 8px 0
 
 footer
   background-color: #fff
@@ -321,7 +317,7 @@ footer
   justify-content: space-between
   align-items: center
 
-  @include mobileL
+  @include mobile
     .sfc-mark
       height: 32px
 
