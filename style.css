@@ -100,12 +100,12 @@ main .sfc, .romsMain .sfc, .emulatorsMain .sfc {
 
 .emulatorsMain {
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   padding: 32px 64px;
   background-color: #64606a;
 }
 .emulatorsMain .emulatorCard {
-  width: 100%;
   background-color: #f4f4f5;
   border: 1px solid #8c8793;
   border-radius: 8px;
@@ -148,8 +148,11 @@ main .sfc, .romsMain .sfc, .emulatorsMain .sfc {
   .emulatorsMain {
     flex-direction: column;
   }
+  .emulatorsMain .emulatorCard {
+    width: 100%;
+  }
   .emulatorsMain .emulatorCard img {
-    height: 40px;
+    width: 100%;
   }
 }
 
