@@ -77,7 +77,7 @@ nav .aActive {
   }
 }
 
-main, .romsMain, .emulatorsMain {
+main, .historyMain, .romsMain, .emulatorsMain {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -86,19 +86,19 @@ main, .romsMain, .emulatorsMain {
   padding: 32px 0;
   gap: 32px;
 }
-main .snes, .romsMain .snes, .emulatorsMain .snes, main .sfc, .romsMain .sfc, .emulatorsMain .sfc {
+main .snes, .historyMain .snes, .romsMain .snes, .emulatorsMain .snes, main .sfc, .historyMain .sfc, .romsMain .sfc, .emulatorsMain .sfc {
   background-color: #fff;
   width: 83.7%;
   border-radius: 4px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   padding: 16px;
 }
-main .sfc, .romsMain .sfc, .emulatorsMain .sfc {
+main .sfc, .historyMain .sfc, .romsMain .sfc, .emulatorsMain .sfc {
   width: 87%;
   border-radius: 8px;
 }
 @media (max-width: 510px) {
-  main, .romsMain, .emulatorsMain {
+  main, .historyMain, .romsMain, .emulatorsMain {
     justify-content: space-evenly;
   }
 }
@@ -270,6 +270,61 @@ main .sfc, .romsMain .sfc, .emulatorsMain .sfc {
     height: auto;
     width: 100%;
     padding: 8px 0;
+  }
+}
+
+.historyMain {
+  padding: 32px 103px;
+}
+.historyMain article {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: justify;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 16px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.historyMain article .consolesArticle {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 2px;
+  background-color: #64606a;
+}
+.historyMain article .consolesArticle .imgContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  width: 50%;
+  background-color: #fff;
+  border-radius: 2px;
+  position: relative;
+}
+.historyMain article .consolesArticle .imgContainer img {
+  width: 100%;
+}
+.historyMain article .consolesArticle .imgContainer label {
+  position: absolute;
+  right: 4px;
+  bottom: 0px;
+  font-weight: bold;
+}
+.historyMain article hr {
+  width: 100%;
+}
+@media (max-width: 510px) {
+  .historyMain {
+    padding: 32px;
+  }
+  .historyMain label {
+    font-size: 8px;
   }
 }
 
