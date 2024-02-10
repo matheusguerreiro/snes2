@@ -294,7 +294,7 @@ main .sfc, .historyMain .sfc, .romsMain .sfc, .emulatorsMain .sfc {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 16px;
   text-align: justify;
   align-items: center;
   width: 100%;
@@ -333,9 +333,19 @@ main .sfc, .historyMain .sfc, .romsMain .sfc, .emulatorsMain .sfc {
 .historyMain article hr {
   width: 100%;
 }
+.historyMain article p {
+  line-height: 24px;
+  font-size: 16px;
+}
 @media (max-width: 510px) {
   .historyMain {
-    padding: 32px;
+    padding: 16px;
+  }
+  .historyMain article {
+    padding: 0 0 16px 0;
+  }
+  .historyMain article p {
+    margin: 0 16px;
   }
   .historyMain label {
     font-size: 8px;
