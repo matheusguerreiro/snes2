@@ -209,6 +209,14 @@ main .sfc, .historyMain .sfc, .romsMain .sfc, .emulatorsMain .sfc {
 .romsMain .roms-main-content .romCard .front-jp {
   height: fit-content;
 }
+.romsMain .roms-main-content .fa-chevron-up {
+  display: none;
+  cursor: pointer;
+  font-size: 20px;
+  position: fixed;
+  right: 32px;
+  top: 30px;
+}
 .romsMain .background {
   position: fixed;
   width: 100%;
@@ -257,6 +265,9 @@ main .sfc, .historyMain .sfc, .romsMain .sfc, .emulatorsMain .sfc {
   .romsMain .roms-main-content .romCard .front, .romsMain .roms-main-content .romCard .front-jp {
     width: 100%;
     height: auto;
+  }
+  .romsMain .roms-main-content .fa-chevron-up {
+    right: 6px;
   }
   .romsMain .background .content {
     width: 100%;

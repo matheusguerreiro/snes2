@@ -74,14 +74,39 @@
     </script>
     <script>
       let romCards = [];
+      // let scrollTop = 128;
+
+      // const deviceType = () => {
+      //   window.innerWidth > window.innerHeight ? scrollTop = 128 : scrollTop = 0
+      //   console.log(scrollTop)
+      // }
+
+      const upScroll = () => {
+        window.scrollTo({
+          // top: scrollTop,
+            top: 0,
+            behavior: "smooth"
+        })
+      }
 
       const cleanInput = () => {
         input.value = "";
 
         romCards.forEach(({ title, card }) => {
-          card.style.display = card.style.display === "none" ? "flex" : "";
+            card.style.display = card.style.display === "none" ? "flex" : "";
         });
       }
+
+      document.addEventListener("DOMContentLoaded", function() {
+        const chevronUp = document.querySelector(".fa-chevron-up");
+
+        const scrollListener = () => {
+            window.scrollY > 232 ? chevronUp.style.display = "block" : chevronUp.style.display = "none"
+        }
+
+        window.addEventListener("scroll", scrollListener);
+        // window.addEventListener("resize", deviceType);
+      });
     </script>
   </head>
   <body>
@@ -116,6 +141,7 @@
       </div>
       <div class="roms-main-content">
         <!-- ... -->
+        <i class="fa fa-chevron-up" aria-hidden="true" onclick="upScroll()"></i>
       </div>
     </main>
     <footer>
