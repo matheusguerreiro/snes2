@@ -101,6 +101,9 @@ main .sfc, .historyMain .sfc, .romsMain .sfc, .emulatorsMain .sfc {
   main, .historyMain, .romsMain, .emulatorsMain {
     justify-content: space-evenly;
   }
+  main .snes, .historyMain .snes, .romsMain .snes, .emulatorsMain .snes, main .sfc, .historyMain .sfc, .romsMain .sfc, .emulatorsMain .sfc {
+    padding: 8px;
+  }
 }
 
 .emulatorsMain {
