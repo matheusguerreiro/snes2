@@ -2,4 +2,4 @@
 SNES
 
 
-https://matheusguerreiro.github.io/snes2/
+https://matheusguerreiro.github.io/snes2/home.html
