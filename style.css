@@ -100,9 +100,11 @@ main .sfc, .historyMain .sfc, .romsMain .sfc, .emulatorsMain .sfc {
 @media (max-width: 510px) {
   main, .historyMain, .romsMain, .emulatorsMain {
     justify-content: space-evenly;
+    padding: 32px;
   }
   main .snes, .historyMain .snes, .romsMain .snes, .emulatorsMain .snes, main .sfc, .historyMain .sfc, .romsMain .sfc, .emulatorsMain .sfc {
     padding: 8px;
+    width: 100%;
   }
 }
 
@@ -311,7 +313,7 @@ main .sfc, .historyMain .sfc, .romsMain .sfc, .emulatorsMain .sfc {
   gap: 16px;
   padding: 16px;
   border-radius: 2px;
-  background-color: #64606a;
+  background-color: #373737;
 }
 .historyMain article .consolesArticle .imgContainer {
   display: flex;
@@ -346,8 +348,18 @@ main .sfc, .historyMain .sfc, .romsMain .sfc, .emulatorsMain .sfc {
     padding: 0 0 16px 0;
   }
   .historyMain article .consolesArticle {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    border-radius: 2px 2px 0 0;
+  }
+  .historyMain article .consolesArticle .imgContainer {
+    width: 100%;
     padding: 8px;
-    gap: 8px;
+  }
+  .historyMain article .consolesArticle .imgContainer img {
+    width: auto;
+    object-fit: cover;
   }
   .historyMain article p {
     margin: 0 16px;

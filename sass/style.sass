@@ -144,9 +144,11 @@ main
 
   @include mobile
     justify-content: space-evenly
+    padding: 32px
 
     .snes
       padding: 8px
+      width: 100%
 
 .emulatorsMain
   @extend main
@@ -355,7 +357,7 @@ main
       gap: 16px
       padding: 16px
       border-radius: 2px
-      background-color: $snesConsoleD5
+      background-color: $snesControllerStartSelect
 
       .imgContainer
         display: flex
@@ -389,8 +391,18 @@ main
       padding: 0 0 16px 0
 
       .consolesArticle
-        padding: 8px
-        gap: 8px
+        flex-direction: column
+        padding: 16px
+        gap: 16px
+        border-radius: 2px 2px 0 0
+
+        .imgContainer
+          width: 100%
+          padding: 8px
+
+          img
+            width: auto
+            object-fit: cover
 
       p
         margin: 0 16px
