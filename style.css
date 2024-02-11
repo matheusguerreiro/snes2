@@ -156,6 +156,7 @@ main .sfc, .historyMain .sfc, .romsMain .sfc, .emulatorsMain .sfc {
   .emulatorsMain {
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 32px;
   }
   .emulatorsMain .emulatorCard {
     width: 100%;
@@ -343,6 +344,10 @@ main .sfc, .historyMain .sfc, .romsMain .sfc, .emulatorsMain .sfc {
   }
   .historyMain article {
     padding: 0 0 16px 0;
+  }
+  .historyMain article .consolesArticle {
+    padding: 8px;
+    gap: 8px;
   }
   .historyMain article p {
     margin: 0 16px;
