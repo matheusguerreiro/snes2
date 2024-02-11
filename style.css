@@ -97,14 +97,26 @@ main .sfc, .historyMain .sfc, .romsMain .sfc, .emulatorsMain .sfc {
   width: 87%;
   border-radius: 8px;
 }
+main .snes-m, .historyMain .snes-m, .romsMain .snes-m, .emulatorsMain .snes-m, main .sfc-m, .historyMain .sfc-m, .romsMain .sfc-m, .emulatorsMain .sfc-m {
+  display: none;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  width: 100%;
+}
+main .sfc-m, .historyMain .sfc-m, .romsMain .sfc-m, .emulatorsMain .sfc-m {
+  border-radius: 8px;
+}
 @media (max-width: 510px) {
   main, .historyMain, .romsMain, .emulatorsMain {
     justify-content: space-evenly;
     padding: 32px;
   }
   main .snes, .historyMain .snes, .romsMain .snes, .emulatorsMain .snes, main .sfc, .historyMain .sfc, .romsMain .sfc, .emulatorsMain .sfc {
-    padding: 8px;
-    width: 100%;
+    display: none;
+  }
+  main .snes-m, .historyMain .snes-m, .romsMain .snes-m, .emulatorsMain .snes-m, main .sfc-m, .historyMain .sfc-m, .romsMain .sfc-m, .emulatorsMain .sfc-m {
+    display: block;
   }
 }
 
