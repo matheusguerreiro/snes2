@@ -182,7 +182,7 @@ main .sfc-m, .historyMain .sfc-m, .romsMain .sfc-m, .emulatorsMain .sfc-m {
 }
 
 .romsMain {
-  padding: 16px 32px;
+  padding: 32px;
 }
 .romsMain .input-container {
   display: flex;
@@ -281,6 +281,9 @@ main .sfc-m, .historyMain .sfc-m, .romsMain .sfc-m, .emulatorsMain .sfc-m {
   color: #6eb92b;
 }
 @media (max-width: 510px) {
+  .romsMain {
+    padding: 16px 32px;
+  }
   .romsMain .roms-main-content .romCard .front, .romsMain .roms-main-content .romCard .front-jp {
     width: 100%;
     height: auto;
