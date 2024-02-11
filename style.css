@@ -110,7 +110,8 @@ main .sfc-m, .historyMain .sfc-m, .romsMain .sfc-m, .emulatorsMain .sfc-m {
 @media (max-width: 510px) {
   main, .historyMain, .romsMain, .emulatorsMain {
     justify-content: space-evenly;
-    padding: 32px;
+    padding: 16px;
+    gap: 16px;
   }
   main .snes, .historyMain .snes, .romsMain .snes, .emulatorsMain .snes, main .sfc, .historyMain .sfc, .romsMain .sfc, .emulatorsMain .sfc {
     display: none;
@@ -170,7 +171,7 @@ main .sfc-m, .historyMain .sfc-m, .romsMain .sfc-m, .emulatorsMain .sfc-m {
   .emulatorsMain {
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 32px;
+    padding: 16px;
   }
   .emulatorsMain .emulatorCard {
     width: 100%;
@@ -181,7 +182,7 @@ main .sfc-m, .historyMain .sfc-m, .romsMain .sfc-m, .emulatorsMain .sfc-m {
 }
 
 .romsMain {
-  padding: 32px;
+  padding: 16px 32px;
 }
 .romsMain .input-container {
   display: flex;
