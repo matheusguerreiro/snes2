@@ -318,7 +318,6 @@ main .sfc-m, .historyMain .sfc-m, .romsMain .sfc-m, .emulatorsMain .sfc-m {
   flex-direction: column;
   gap: 16px;
   text-align: justify;
-  align-items: center;
   width: 100%;
   background-color: #fff;
   border-radius: 2px;
@@ -358,6 +357,12 @@ main .sfc-m, .historyMain .sfc-m, .romsMain .sfc-m, .emulatorsMain .sfc-m {
 .historyMain article p {
   line-height: 24px;
   font-size: 16px;
+}
+.historyMain article h2 {
+  background-color: #373737;
+  color: #fff;
+  padding: 6px 8px;
+  border-radius: 2px;
 }
 @media (max-width: 510px) {
   .historyMain {
