@@ -898,8 +898,8 @@
   {
     "id": "1ed340c1-debe-c7c8-cafb-4bf7b34c3176",
     "title": "Ninja Warriors, The",
-    "front": "images/roms/NinjaWarriors,The_front.jpg",
-    "game": "images/roms/NinjaWarriors,The_game.jpg",
+    "front": "images/roms/NinjaWarriorsThe_front.jpg",
+    "game": "images/roms/NinjaWarriorsThe_game.jpg",
     "rom": "https://drive.google.com/uc?export=download&id=1pXisBrWZat_qBDQcFzegq2QyEdQfVG0H",
     "region": "US"
   },
@@ -925,7 +925,7 @@
     "front": "images/roms/ShinMegamiTensei_front.jpg",
     "game": "images/roms/ShinMegamiTensei_game.jpg",
     "rom": "https://drive.google.com/uc?export=download&id=1pGhbkWFYlNJzCDe6eWynr2NduObYd9L2",
-    "region": "US"
+    "region": "JP"
   },
   {
     "id": "2733a7f0-39ba-9743-a610-829b935c6b45",
@@ -1018,8 +1018,8 @@
   {
     "id": "89efb050-6bce-0a94-0adc-25939f937d31",
     "title": "Marchen Adventure Cotton 100%",
-    "front": "images/roms/MarchenAdventureCotton100%_front.jpg",
-    "game": "images/roms/MarchenAdventureCotton100%_game.jpg",
+    "front": "images/roms/MarchenAdventureCotton100_front.jpg",
+    "game": "images/roms/MarchenAdventureCotton100_game.jpg",
     "rom": "https://drive.google.com/uc?export=download&id=1mgtNN1_9gqe0jZpR-63qe0_kjWIOZWQk",
     "region": "JP"
   },
