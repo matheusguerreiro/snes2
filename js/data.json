@@ -848,6 +848,86 @@
     "region": "US"
   },
   {
+    "id": "6ae6acb1-62f5-cf7d-4385-81153883b20a",
+    "title": "Kirby's Avalanche",
+    "front": "images/roms/KirbysAvalanche_front.jpg",
+    "game": "images/roms/KirbysAvalanche_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=16XaUSP_q96xaRAGNwnh7dUOz7tH17fqW",
+    "region": "US"
+  },
+  {
+    "id": "83ca9c3a-ed77-9b63-4f9b-c1d8fe47b8a8",
+    "title": "Toy Story",
+    "front": "images/roms/ToyStory_front.jpg",
+    "game": "images/roms/ToyStory_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1J6FBDtN4eMzKYvbGEQ76abpC_fIkEYY-",
+    "region": "US"
+  },
+  {
+    "id": "d40c45bf-1e7d-d3c5-0b37-efc193e8a6eb",
+    "title": "Metal Warriors",
+    "front": "images/roms/MetalWarriors_front.jpg",
+    "game": "images/roms/MetalWarriors_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=12WfyQbuMtFPVm-vEqCud8yEaHDHi5zXR",
+    "region": "US"
+  },
+  {
+    "id": "40e64d83-4d65-a3ab-82e5-6f553322da2e",
+    "title": "Tiny Toon Adventures - Buster Busts Loose!",
+    "front": "images/roms/TinyToonAdventuresBusterBustsLoose!_front.jpg",
+    "game": "images/roms/TinyToonAdventuresBusterBustsLoose!_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1Zc4LruZrysfeE4RA6QQ7dx1MU5sZZLI9",
+    "region": "US"
+  },
+  {
+    "id": "c304c958-8d85-373c-8c86-419002f5c5c9",
+    "title": "Clock Tower",
+    "front": "images/roms/ClockTower_front.jpg",
+    "game": "images/roms/ClockTower_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1luHOaETU-JHBPD8D98_1b-Fc_jL09Rl9",
+    "region": "US"
+  },
+  {
+    "id": "797b3cbc-d53a-179a-0856-ad3dc47dc43f",
+    "title": "Super Adventure Island",
+    "front": "images/roms/SuperAdventureIsland_front.jpg",
+    "game": "images/roms/SuperAdventureIsland_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=127j8SUVvqi2HRQ3yTkzwCPvmIm2xUk7-",
+    "region": "US"
+  },
+  {
+    "id": "1ed340c1-debe-c7c8-cafb-4bf7b34c3176",
+    "title": "Ninja Warriors, The",
+    "front": "images/roms/NinjaWarriors,The_front.jpg",
+    "game": "images/roms/NinjaWarriors,The_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1pXisBrWZat_qBDQcFzegq2QyEdQfVG0H",
+    "region": "US"
+  },
+  {
+    "id": "8de9bd5d-beae-b18e-ee3b-645e89ffe94f",
+    "title": "Alien vs. Predator",
+    "front": "images/roms/AlienvsPredator_front.jpg",
+    "game": "images/roms/AlienvsPredator_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1JDGBHPpn6lkpB9EfWdBoY-hItepyVOuA",
+    "region": "US"
+  },
+  {
+    "id": "0fd37985-fc84-23ea-b049-e8122335f240",
+    "title": "Tom & Jerry",
+    "front": "images/roms/Tom&Jerry_front.jpg",
+    "game": "images/roms/Tom&Jerry_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1977a3VqokizhG0itZsfx9C_TgTUJJQlp",
+    "region": "US"
+  },
+  {
+    "id": "08842caa-04c8-c983-4125-5d48facd5a3a",
+    "title": "Shin Megami Tensei",
+    "front": "images/roms/ShinMegamiTensei_front.jpg",
+    "game": "images/roms/ShinMegamiTensei_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1pGhbkWFYlNJzCDe6eWynr2NduObYd9L2",
+    "region": "US"
+  },
+  {
     "id": "2733a7f0-39ba-9743-a610-829b935c6b45",
     "title": "Seiken Densetsu 3",
     "front": "images/roms/SeikenDensetsu3_front.jpg",
@@ -897,7 +977,7 @@
   },
   {
     "id": "74b751ee-086e-d5ed-2c4d-085b6d6f7b9d",
-    "title": "Dragon Quest VI - Maboroshi no Daichi",
+    "title": "Dragon Quest VI 4 - Maboroshi no Daichi",
     "front": "images/roms/DragonQuestVIMaboroshinoDaichi_front.jpg",
     "game": "images/roms/DragonQuestVIMaboroshinoDaichi_game.jpg",
     "rom": "https://drive.google.com/uc?export=download&id=1au63T-bHidd1wd_Z4Xv7s48Dk3YDnvA5",
@@ -905,7 +985,7 @@
   },
   {
     "id": "f8c5e674-9fcb-b511-a229-ab7484311b7f",
-    "title": "Dragon Quest V - Tenkuu no Hanayome",
+    "title": "Dragon Quest V 5 - Tenkuu no Hanayome",
     "front": "images/roms/DragonQuestVTenkuunoHanayome_front.jpg",
     "game": "images/roms/DragonQuestVTenkuunoHanayome_game.jpg",
     "rom": "https://drive.google.com/uc?export=download&id=1y9M_kxdABmthnI2BbsxwzqJBekvUnPcH",
@@ -933,6 +1013,22 @@
     "front": "images/roms/DragonBallZSuperButouden2_front.jpg",
     "game": "images/roms/DragonBallZSuperButouden2_game.jpg",
     "rom": "https://drive.google.com/uc?export=download&id=1KgrqL-yf4NjtQafqSx_TC_9pyHzFHusN",
+    "region": "JP"
+  },
+  {
+    "id": "89efb050-6bce-0a94-0adc-25939f937d31",
+    "title": "Marchen Adventure Cotton 100%",
+    "front": "images/roms/MarchenAdventureCotton100%_front.jpg",
+    "game": "images/roms/MarchenAdventureCotton100%_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1mgtNN1_9gqe0jZpR-63qe0_kjWIOZWQk",
+    "region": "JP"
+  },
+  {
+    "id": "3bedf7a8-412a-90fb-9d70-3ef254f4b337",
+    "title": "Fire Emblem - Seisen no Keifu",
+    "front": "images/roms/FireEmblemSeisennoKeifu_front.jpg",
+    "game": "images/roms/FireEmblemSeisennoKeifu_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=13LUg4waxedri8EGwSWvHyiREbIFjLvsi",
     "region": "JP"
   }
 ]
