@@ -1040,6 +1040,70 @@
     "region": "US"
   },
   {
+    "id": "34f68700-e511-bf4f-8e55-439e4c412355",
+    "title": "ActRaiser 2",
+    "front": "images/roms/ActRaiser2_front.jpg",
+    "game": "images/roms/ActRaiser2_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1jGcMMtV3VjFvbTUW9BwGjkmB6wNbbVXO",
+    "region": "US"
+  },
+  {
+    "id": "211923cc-81c9-8a84-452a-fac7d4d98bf9",
+    "title": "Mighty Morphin Power Rangers - The Fighting Edition",
+    "front": "images/roms/MightyMorphinPowerRangersTheFightingEdition_front.jpg",
+    "game": "images/roms/MightyMorphinPowerRangersTheFightingEdition_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1vFJCLNYKh-l_UoG7Uhz4ShX1FKkUlN0m",
+    "region": "US"
+  },
+  {
+    "id": "9cec66ba-43e0-e573-eb94-bf89b2f07a9a",
+    "title": "NBA Jam",
+    "front": "images/roms/NBAJam_front.jpg",
+    "game": "images/roms/NBAJam_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=11OXm8_xDl_0zFl2mBG1T10WTsjzv3XJP",
+    "region": "US"
+  },
+  {
+    "id": "98912cf2-7df4-303c-8237-5f948303719b",
+    "title": "King of Dragons, The",
+    "front": "images/roms/KingofDragonsThe_front.jpg",
+    "game": "images/roms/KingofDragonsThe_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=18ykj8LLX45uqHwAxRUnL57rjUaEzL0y5",
+    "region": "US"
+  },
+  {
+    "id": "9dc83f8b-3781-06d2-5f76-991996219f42",
+    "title": "E.V.O. Search for Eden",
+    "front": "images/roms/EVOSearchforEden_front.jpg",
+    "game": "images/roms/EVOSearchforEden_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1ds45bMwHGCiRSOVkAfW48YzAfPjNB5Cs",
+    "region": "US"
+  },
+  {
+    "id": "cf895d29-d0dc-f7cc-9dc0-26dc4e2c4138",
+    "title": "Ogre Battle - The March of the Black Queen",
+    "front": "images/roms/OgreBattleTheMarchoftheBlackQueen_front.jpg",
+    "game": "images/roms/OgreBattleTheMarchoftheBlackQueen_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1tAUFeaRs0oWug_nZSrpRHUxlVcMXEZQ5",
+    "region": "US"
+  },
+  {
+    "id": "1e31c159-26f7-4478-c802-8f02304e7ae4",
+    "title": "Prince of Persia 2 - The Shadow & The Flame",
+    "front": "images/roms/PrinceofPersia2TheShadow&TheFlame_front.jpg",
+    "game": "images/roms/PrinceofPersia2TheShadow&TheFlame_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1p46XIurxSKWuXk8IHd-QKtvA2Cg8GgVf",
+    "region": "US"
+  },
+  {
+    "id": "ee22ca54-813e-d68f-aa94-57ab99151a68",
+    "title": "WWF Wrestlemania - The Arcade Game",
+    "front": "images/roms/WWFWrestlemaniaTheArcadeGame_front.jpg",
+    "game": "images/roms/WWFWrestlemaniaTheArcadeGame_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1gBH_oDElnH3PDWJXJJ8icPB7VrzJJy4B",
+    "region": "US"
+  },
+  {
     "id": "08842caa-04c8-c983-4125-5d48facd5a3a",
     "title": "Shin Megami Tensei",
     "front": "images/roms/ShinMegamiTensei_front.jpg",
@@ -1157,6 +1221,14 @@
     "front": "images/roms/Rockman&Forte_front.jpg",
     "game": "images/roms/Rockman&Forte_game.jpg",
     "rom": "https://drive.google.com/uc?export=download&id=1t-kVShvZZrJjIM-zCojcRpdKqpj3QPu2",
+    "region": "JP"
+  },
+  {
+    "id": "551c12ad-f4a9-9cdf-cf64-b29f57d2fb96",
+    "title": "Dragon Ball Z - Super Butouden",
+    "front": "images/roms/DragonBallZSuperButouden_front.jpg",
+    "game": "images/roms/DragonBallZSuperButouden_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1epyXfP0TFcwXku1bTWfX7-5cGLJOs4Bs",
     "region": "JP"
   }
 ]
