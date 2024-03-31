@@ -984,6 +984,54 @@
     "region": "US"
   },
   {
+    "id": "9fb0bed9-04aa-90b2-88e8-d73fcaa81b5d",
+    "title": "Magical Quest Starring Mickey Mouse, The",
+    "front": "images/roms/MagicalQuestStarringMickeyMouseThe_front.jpg",
+    "game": "images/roms/MagicalQuestStarringMickeyMouseThe_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1FYw10IUdqA5CYybvZfnQ5jEcJSXrC8w5",
+    "region": "US"
+  },
+  {
+    "id": "d84197ab-f3a2-c762-3659-a6fe97a8d2a7",
+    "title": "Lufia & The Fortress of Doom",
+    "front": "images/roms/Lufia&TheFortressofDoom_front.jpg",
+    "game": "images/roms/Lufia&TheFortressofDoom_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=19SzndCXrkwgYdrYT3pS_5CpuGeosTJ6V",
+    "region": "US"
+  },
+  {
+    "id": "f21dbc23-0e9c-8bf9-d15d-de79e223d7ab",
+    "title": "Samurai Shodown",
+    "front": "images/roms/SamuraiShodown_front.jpg",
+    "game": "images/roms/SamuraiShodown_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1ASzf6laLXRq2HZ_WKOsRWxo2rp-3v2dD",
+    "region": "US"
+  },
+  {
+    "id": "f2deb6e4-a755-6e7a-a7a7-1624f276f8c4",
+    "title": "Legend of The Mystical Ninja, The",
+    "front": "images/roms/LegendofTheMysticalNinjaThe_front.jpg",
+    "game": "images/roms/LegendofTheMysticalNinjaThe_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1DzZQ55rPJ8M5lUhCUDjHKFwcbV9FJkII",
+    "region": "US"
+  },
+  {
+    "id": "ff23dd2f-df9c-9e8e-906e-6528e20c82c9",
+    "title": "Super R-Type",
+    "front": "images/roms/SuperRType_front.jpg",
+    "game": "images/roms/SuperRType_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=18IBjTCm1_WQK4nwt98LHK2r_YxQeqRTY",
+    "region": "US"
+  },
+  {
+    "id": "33678db6-fc66-331f-927c-d377e7c9ed66",
+    "title": "Spider-Man",
+    "front": "images/roms/SpiderMan_front.jpg",
+    "game": "images/roms/SpiderMan_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1ERx4LWCTyrQb-BwEtVpPkHV4KNwfGzE-",
+    "region": "US"
+  },
+  {
     "id": "08842caa-04c8-c983-4125-5d48facd5a3a",
     "title": "Shin Megami Tensei",
     "front": "images/roms/ShinMegamiTensei_front.jpg",
@@ -1093,6 +1141,22 @@
     "front": "images/roms/FireEmblemSeisennoKeifu_front.jpg",
     "game": "images/roms/FireEmblemSeisennoKeifu_game.jpg",
     "rom": "https://drive.google.com/uc?export=download&id=13LUg4waxedri8EGwSWvHyiREbIFjLvsi",
+    "region": "JP"
+  },
+  {
+    "id": "d043c96e-cd12-4da7-a92d-a34a5c0c7092",
+    "title": "Front Mission",
+    "front": "images/roms/FrontMission_front.jpg",
+    "game": "images/roms/FrontMission_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1zM58ZUiOI4Y2D16LSXZ4-3cW1yUsolXv",
+    "region": "JP"
+  },
+  {
+    "id": "7583b461-c1c9-0945-4416-96885b7e9e3f",
+    "title": "Rockman & Forte",
+    "front": "images/roms/Rockman&Forte_front.jpg",
+    "game": "images/roms/Rockman&Forte_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1t-kVShvZZrJjIM-zCojcRpdKqpj3QPu2",
     "region": "JP"
   }
 ]
