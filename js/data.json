@@ -920,6 +920,70 @@
     "region": "US"
   },
   {
+    "id": "4c1a0e39-ed0d-4dbe-ed02-bef2be8053de",
+    "title": "Tetris & Dr. Mario",
+    "front": "images/roms/Tetris&DrMario_front.jpg",
+    "game": "images/roms/Tetris&DrMario_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=12EWeDI91Mkcn-wQ_th33cz9jpE3irCN8",
+    "region": "US"
+  },
+  {
+    "id": "3196cf9e-34f9-f4d8-347b-2c17d938d3d4",
+    "title": "Mario Paint",
+    "front": "images/roms/MarioPaint_front.jpg",
+    "game": "images/roms/MarioPaint_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1VC4byFMelOvlc0RaA1mQjcYn0jNqalOQ",
+    "region": "US"
+  },
+  {
+    "id": "35274868-8cdc-f2b8-de4a-6a4cbdfae9a2",
+    "title": "Biker Mice From Mars",
+    "front": "images/roms/BikerMiceFromMars_front.jpg",
+    "game": "images/roms/BikerMiceFromMars_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1hX7ekfYO_RIEdWLjI3qVih1YmAj31AhG",
+    "region": "US"
+  },
+  {
+    "id": "b2f70708-9095-a652-f3dc-72a919d348ae",
+    "title": "Live A Live",
+    "front": "images/roms/LiveALive_front.jpg",
+    "game": "images/roms/LiveALive_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1p2LbJQEqRWVxOLun8BH5rJkHqxD_0e3Q",
+    "region": "US"
+  },
+  {
+    "id": "5912e0f3-e7f6-0df5-0afd-71da19b2670e",
+    "title": "Fushigi no Dungeon 2 - Fuurai no Shiren",
+    "front": "images/roms/FushiginoDungeon2FuurainoShiren_front.jpg",
+    "game": "images/roms/FushiginoDungeon2FuurainoShiren_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=14frdl-B-xAzRUINE3wRajaf3JesHLS3_",
+    "region": "US"
+  },
+  {
+    "id": "16d15f6e-8c8a-6f76-3d04-67e280fcc852",
+    "title": "Spider-Man and the X-Men in Arcade's Revenge",
+    "front": "images/roms/SpiderManandtheXMeninArcadesRevenge_front.jpg",
+    "game": "images/roms/SpiderManandtheXMeninArcadesRevenge_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=11C7c8Od_Wky2FOD0LlNxXBvZx6933pF3",
+    "region": "US"
+  },
+  {
+    "id": "f5166210-6b60-af5a-9fc4-4b29d07f41ae",
+    "title": "Sim City 2000",
+    "front": "images/roms/SimCity2000_front.jpg",
+    "game": "images/roms/SimCity2000_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1qMROssTJ2kddRHmqbkJ16ZOU45uIMixi",
+    "region": "US"
+  },
+  {
+    "id": "8544a646-d9f3-e2b9-ad08-e66657768db9",
+    "title": "Mask, The",
+    "front": "images/roms/MaskThe_front.jpg",
+    "game": "images/roms/MaskThe_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=102rtCRHIr3Xj_SZFmOQ3-J-CSUXV_aZo",
+    "region": "US"
+  },
+  {
     "id": "08842caa-04c8-c983-4125-5d48facd5a3a",
     "title": "Shin Megami Tensei",
     "front": "images/roms/ShinMegamiTensei_front.jpg",
