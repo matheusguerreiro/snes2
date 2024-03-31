@@ -1032,6 +1032,14 @@
     "region": "US"
   },
   {
+    "id": "d043c96e-cd12-4da7-a92d-a34a5c0c7092",
+    "title": "Front Mission",
+    "front": "images/roms/FrontMission_front.jpg",
+    "game": "images/roms/FrontMission_game.jpg",
+    "rom": "https://drive.google.com/uc?export=download&id=1zM58ZUiOI4Y2D16LSXZ4-3cW1yUsolXv",
+    "region": "US"
+  },
+  {
     "id": "08842caa-04c8-c983-4125-5d48facd5a3a",
     "title": "Shin Megami Tensei",
     "front": "images/roms/ShinMegamiTensei_front.jpg",
@@ -1141,14 +1149,6 @@
     "front": "images/roms/FireEmblemSeisennoKeifu_front.jpg",
     "game": "images/roms/FireEmblemSeisennoKeifu_game.jpg",
     "rom": "https://drive.google.com/uc?export=download&id=13LUg4waxedri8EGwSWvHyiREbIFjLvsi",
-    "region": "JP"
-  },
-  {
-    "id": "d043c96e-cd12-4da7-a92d-a34a5c0c7092",
-    "title": "Front Mission",
-    "front": "images/roms/FrontMission_front.jpg",
-    "game": "images/roms/FrontMission_game.jpg",
-    "rom": "https://drive.google.com/uc?export=download&id=1zM58ZUiOI4Y2D16LSXZ4-3cW1yUsolXv",
     "region": "JP"
   },
   {
